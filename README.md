@@ -2,38 +2,48 @@
 
 ---
 
-# 👋 HELLO
+# 👋 Welcome 
 
-🔥 "Imagine a world where machines move with intelligence, websites build themselves, and ideas spark revolutions." That’s the world I’m building.
+🔥 .
+I’m **Dineth Perera**, a second-year Electronics and Telecommunication Engineering undergraduate with a relentless passion to **innovate**, **automate**, and **inspire**. My journey blends **cutting-edge technology** with **visionary communication**—driving impact both on the circuit board and the stage.
 
-I’m **Dineth Perera**, a second-year Electronics and electrical Engineering undergraduate with an unmatched drive to **innovate**, **automate**, and **inspire**. With a mind wired for robotics, signal systems, and AI, I’m on a mission to build impactful tech—from intelligent traffic systems and hybrid line-followers to AI website generators that convert thoughts into code.
+Whether I’m designing a **high-speed line-following robot**, simulating intelligent **traffic systems**, building an **AI website generator**, or revolutionizing Sri Lanka’s auto market through **Raceday.lk**, I bring purpose to every pixel and pulse.
 
-But that’s only half the story.
+🎤 As a proud **Toastmasters** speaker and leader, I believe in empowering technology through human connection—turning complex ideas into compelling stories, and turning ideas into action.
 
-🎤 As a proud member of **Toastmasters International**, I’ve honed the art of communication—delivering technical ideas with the same clarity and conviction as a keynote speech. Whether on stage or in a GitHub commit, I aim to **lead with impact, clarity, and confidence**.
+🚘 I'm also the co-owner of **[Raceday.lk](https://instagram.com/racedaylk)** — Sri Lanka’s next-gen car marketplace powered by automation and creativity. From **Graph API integration** to modern front-end design, this platform bridges **automobiles with AI**.
 
 ---
 
 ## 🧠 Areas of Expertise
 
-* 🤖 Embedded Systems (ESP32, IR arrays, capacitive microphones)
-* 🧭 Robotics & Automation (Hybrid line followers, PID tuning, complex junction logic)
-* 📡 Signal Processing & Instrumentation (ADC design, Sigma-Delta, data acquisition)
-* 🧠 Artificial Intelligence (Text-to-React/HTML generators, computer vision)
-* 💡 Innovative Product Design (Noise pollution logger, traffic light simulators)
-* 🌐 Web Development (React, Next.js, Tailwind, Graph API integration)
-* 🧩 System Simulation (Webots, Python-based control simulations)
-* 🎙️ Public Speaking & Leadership (Toastmasters certified speaker)
+* 🤖 Embedded Systems 
+* 🧭 Robotics & Automation (Hybrid line followers, PID tuning, junction logic)
+* 📡 Signal Processing & Instrumentation (ADC systems, Sigma-Delta, system calibration)
+* 🧠 Artificial Intelligence (Text-to-code models, computer vision for robotics)
+* 💡 Product Design & Innovation (Noise pollution loggers, smart simulators)
+* 🧩 System Simulation (Webots, Python traffic control GUIs)
+* 🎙️ Public Speaking & Leadership (Toastmasters certified communicator)
 
 ---
 
 ## 🚀 Ongoing Projects
 
-* **AI Website Generator** — A powerful tool that translates user prompts into responsive HTML/React code.
-* **Raceday.lk** — A local Sri Lankan vehicle marketplace powered by modern web tech and Instagram API.
-* **Hybrid Line Following Robot** — Combining IR sensor arrays and camera-based vision for extreme precision.
-* **Noise Pollution Logger** — A research-grade data logger built with capacitor microphones and ESP32.
-* **Traffic Light Simulation (C & Python)** — Full GUI-based simulation with emergency, pedestrian, and priority modes.
+* 🧠 **AI Website Generator** — A visionary tool that converts natural language prompts into beautiful websites (React/HTML).
+* 🚘 **Raceday.lk** — My personal startup: a **vehicle marketplace platform for Sri Lanka**, combining **modern web tech** and **Instagram Graph API** to automate listings and redefine local car trading.
+* ⚡ **Hybrid Line Following Robot** — A speed-optimized bot that fuses IR arrays and camera-based vision for intelligent junction handling.
+* 🔊 **Noise Pollution Logger** — A real-time noise measurement platform using ESP32 and high-sensitivity microphones.
+* 🚦 **Traffic Light Simulation (C & Python)** — A full-stack, GUI-driven, smart traffic light controller with emergency and pedestrian handling modes.
+
+---
+
+## 🧩 Robotics Widgets & Animations
+
+<p align="center">
+  <img src="https://media.giphy.com/media/hU0h2BtBbs8Qqs6rda/giphy.gif" width="250"/>
+  <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="250"/>
+  <img src="https://media.giphy.com/media/fAnEC88LccN7a/giphy.gif" width="250"/>
+</p>
 
 ---
 
