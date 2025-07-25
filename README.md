@@ -37,16 +37,6 @@ Whether I’m designing a **high-speed line-following robot**, simulating intell
 
 ---
 
-## 🧩 Robotics Widgets & Animations
-
-<p align="center">
-  <img src="https://media.giphy.com/media/hU0h2BtBbs8Qqs6rda/giphy.gif" width="250"/>
-  <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="250"/>
-  <img src="https://media.giphy.com/media/fAnEC88LccN7a/giphy.gif" width="250"/>
-</p>
-
----
-
 ## 📈 GitHub Stats
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dineth14\&layout=compact\&theme=radical)
