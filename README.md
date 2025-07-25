@@ -2,11 +2,11 @@
 
 ---
 
-# 👋 Welcome to My World
+# 👋 HELLO
 
 🔥 "Imagine a world where machines move with intelligence, websites build themselves, and ideas spark revolutions." That’s the world I’m building.
 
-I’m **Dineth Perera**, a second-year Electronics and Telecommunication Engineering undergraduate with an unmatched drive to **innovate**, **automate**, and **inspire**. With a mind wired for robotics, signal systems, and AI, I’m on a mission to build impactful tech—from intelligent traffic systems and hybrid line-followers to AI website generators that convert thoughts into code.
+I’m **Dineth Perera**, a second-year Electronics and electrical Engineering undergraduate with an unmatched drive to **innovate**, **automate**, and **inspire**. With a mind wired for robotics, signal systems, and AI, I’m on a mission to build impactful tech—from intelligent traffic systems and hybrid line-followers to AI website generators that convert thoughts into code.
 
 But that’s only half the story.
 
