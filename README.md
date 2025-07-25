@@ -11,7 +11,7 @@ Whether I’m designing a **high-speed line-following robot**, simulating intell
 
 🎤 As a proud **Toastmasters** speaker and leader, I believe in empowering technology through human connection—turning complex ideas into compelling stories, and turning ideas into action.
 
-🚘 I'm also the co-owner of **[Raceday.lk](https://instagram.com/racedaylk)** — Sri Lanka’s next-gen car marketplace powered by automation and creativity. From **Graph API integration** to modern front-end design, this platform bridges **automobiles with AI**.
+🚘 I'm also the co-owner of **[Raceday.lk](https://instagram.com/racedaylk)** — Sri Lanka’s number one luxery car marketplace
 
 ---
 
