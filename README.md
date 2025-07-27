@@ -52,10 +52,9 @@ Whether I’m designing a **high-speed line-following robot**, simulating intell
 
 ## 🌐 Let’s Connect!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/dineth14)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin\&logoColor=white)]([https://www.linkedin.com/in/dineth14](https://www.linkedin.com/in/dineth-perera-ba9657277/))
 [![Instagram](https://img.shields.io/badge/Instagram-red?logo=instagram\&logoColor=white)](https://instagram.com/racedaylk)
-[![YouTube](https://img.shields.io/badge/YouTube-black?logo=youtube\&logoColor=red)](https://youtube.com/@racedaylk)
-[![Email](https://img.shields.io/badge/Email-darkgreen?logo=gmail\&logoColor=white)](mailto:youremail@gmail.com)
+[![Email](https://img.shields.io/badge/Email-darkgreen?logo=gmail\&logoColor=white)](mailto:dp18perera@gmail.com)
 
 ---
 
