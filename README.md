@@ -29,7 +29,6 @@ Whether I’m designing a **high-speed line-following robot**, simulating intell
 
 ## 🚀 Ongoing Projects
 
-* 🧠 **AI Website Generator** — A visionary tool that converts natural language prompts into beautiful websites (React/HTML).
 * 🚘 **Raceday.lk** — My personal startup: a **vehicle marketplace platform for Sri Lanka**, combining **modern web tech** and **Instagram Graph API** to automate listings and redefine local car trading.
 * ⚡ **Hybrid Line Following Robot** — A speed-optimized bot that fuses IR arrays and camera-based vision for intelligent junction handling.
 * 🔊 **Noise Pollution Logger** — A real-time noise measurement platform using ESP32 and high-sensitivity microphones.
