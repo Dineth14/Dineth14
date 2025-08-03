@@ -1,4 +1,4 @@
-![Welcome Banner](https://readme-typing-svg.demolab.com?font=Fira+Code\&weight=700\&size=24\&pause=1000\&center=true\&vCenter=true\&width=800\&lines=Hi%2C+I'm+Dineth+Perera!;Electronics+Engineer+%7C+Robotics+Innovator+%7C+Toastmaster+%7C+Tech+Entrepreneur)
+![Welcome Banner](https://readme-typing-svg.demolab.com?font=Fira+Code\&weight=700\&size=24\&pause=1000\&center=true\&vCenter=true\&width=800\&lines=Hi%2C+I'm+Dineth+Perera!;Electronics+Engineer+%7C+Robotics+Innovator)
 
 ---
 
