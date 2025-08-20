@@ -5,13 +5,9 @@
 # 👋 Welcome 
 
 🔥 
-I’m **Dineth Perera**, a second-year Electrical and Electronics Engineering undergraduate with a relentless passion to **innovate**, **automate**, and **inspire**. My journey blends **cutting-edge technology** with **visionary communication**—driving impact both on the circuit board and the stage.
+I’m Dineth Tharuka Perera, a passionate and performance-driven engineering undergraduate with a multidisciplinary edge. I specialize in embedded systems, robotics, electronics, signal processing, and computer vision, combining technical insight with entrepreneurial drive.
 
-Whether I’m designing a **high-speed line-following robot**, simulating intelligent **traffic systems**, building an **AI website generator**, or revolutionizing Sri Lanka’s auto market through **Raceday.lk**, I bring purpose to every pixel and pulse.
-
-🎤 As a proud **Toastmasters** speaker and leader, I believe in empowering technology through human connection—turning complex ideas into compelling stories, and turning ideas into action.
-
-🚘 I'm also the co-owner of **[Raceday.lk](https://instagram.com/racedaylk)** — Sri Lanka’s number one luxery car marketplace
+Beyond engineering, I run **[Raceday.lk](https://instagram.com/racedaylk)**, a fast-growing automotive platform, where I merge digital strategy with market insight to create scalable, user-focused solutions. I thrive at the intersection of innovation, technology, and business, with a mindset built on learning, building, and leading with impact.
 
 ---
 
