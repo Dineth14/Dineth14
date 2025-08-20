@@ -2,10 +2,8 @@
 
 ---
 
-# 👋 Welcome 
-
 🔥 
-I’m Dineth Tharuka Perera, a passionate and performance-driven engineering undergraduate with a multidisciplinary edge. I specialize in embedded systems, robotics, electronics, signal processing, and computer vision, combining technical insight with entrepreneurial drive.
+I’m Dineth Perera, a passionate and performance-driven engineering undergraduate with a multidisciplinary edge. I specialize in embedded systems, robotics, electronics, signal processing, and computer vision, combining technical insight with entrepreneurial drive.
 
 Beyond engineering, I run **[Raceday.lk](https://instagram.com/racedaylk)**, a fast-growing automotive platform, where I merge digital strategy with market insight to create scalable, user-focused solutions. I thrive at the intersection of innovation, technology, and business, with a mindset built on learning, building, and leading with impact.
 
