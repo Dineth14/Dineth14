@@ -76,3 +76,10 @@ Whether I’m designing a **high-speed line-following robot**, simulating intell
 ---
 
 ✨ Thank you for stopping by. Let’s innovate something extraordinary together!
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=DinethPerera&style=for-the-badge&color=brightgreen&label=✨%20Profile%20Views✨" />
+</p>
+
