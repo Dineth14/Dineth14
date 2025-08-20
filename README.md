@@ -4,7 +4,7 @@
 
 # 👋 Welcome 
 
-🔥 .
+🔥 
 I’m **Dineth Perera**, a second-year Electrical and Electronics Engineering undergraduate with a relentless passion to **innovate**, **automate**, and **inspire**. My journey blends **cutting-edge technology** with **visionary communication**—driving impact both on the circuit board and the stage.
 
 Whether I’m designing a **high-speed line-following robot**, simulating intelligent **traffic systems**, building an **AI website generator**, or revolutionizing Sri Lanka’s auto market through **Raceday.lk**, I bring purpose to every pixel and pulse.
