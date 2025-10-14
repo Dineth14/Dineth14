@@ -36,6 +36,7 @@ Beyond engineering, I run **[Raceday.lk](https://instagram.com/racedaylk)**, a f
 * ⚡ **Hybrid Line Following Robot** — A speed-optimized bot that fuses IR arrays and camera-based vision for intelligent junction handling.
 * 🔊 **Noise Pollution Logger** — A real-time noise measurement platform using ESP32 and high-sensitivity microphones.
 * 🚦 **Traffic Light Simulation (C & Python)** — A full-stack, GUI-driven, smart traffic light controller with emergency and pedestrian handling modes.
+* 🌊 **[Haar Wavelet Transform](haar_wavelet_transform/)** — A comprehensive implementation of Haar wavelet transforms for image processing with multiple kernel sizes, traversal patterns, and extensive comparison visualizations for signal processing applications.
 
 ---
 
