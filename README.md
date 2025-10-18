@@ -38,7 +38,6 @@ Beyond engineering, I run **[Raceday.lk](https://instagram.com/racedaylk)**, a f
 * 🚦 **Traffic Light Simulation (C & Python)** — A full-stack, GUI-driven, smart traffic light controller with emergency and pedestrian handling modes.
 * 🌊 **[Haar Wavelet Transform](haar_wavelet_transform/)** — A comprehensive implementation of Haar wavelet transforms for image processing with multiple kernel sizes, traversal patterns, and extensive comparison visualizations for signal processing applications.
 
-=======
 
 ## 📊 GitHub Contributions
 
