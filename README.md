@@ -12,11 +12,9 @@ Beyond engineering, I run **[Raceday.lk](https://instagram.com/racedaylk)**, a f
 ## 🧠 Areas of Expertise
 
 * 🤖 Embedded Systems 
-* 🧭 Robotics & Automation (Hybrid line followers, PID tuning, junction logic)
-* 📡 Signal Processing & Instrumentation (ADC systems, Sigma-Delta, system calibration)
-* 🧠 Artificial Intelligence (Text-to-code models, computer vision for robotics)
-* 💡 Product Design & Innovation (Noise pollution loggers, smart simulators)
-* 🧩 System Simulation (Webots, Python traffic control GUIs)
+* 🧭 Robotics & Automation
+* 🧩 Computer Vision & AI  
+* 📡 Signal Processing & Instrumentation 
 * 🎙️ Public Speaking & Leadership (Toastmasters certified communicator)
 
 ---
@@ -33,10 +31,10 @@ Beyond engineering, I run **[Raceday.lk](https://instagram.com/racedaylk)**, a f
 ## 🚀 Ongoing Projects
 
 * 🚘 **Raceday.lk** — My personal startup: a **vehicle marketplace platform for Sri Lanka**, combining **modern web tech** and **Instagram Graph API** to automate listings and redefine local car trading.
+* 🧠 **UrbanMamba / Vision Mamba Research** — Investigating **wavelet-Mamba fusion models** for **image change detection**, **remote sensing**
+* 🎯 **Group Activity Recognition (GAR)** — Deep learning-based **spatiotemporal behavior analysis**  
 * ⚡ **Hybrid Line Following Robot** — A speed-optimized bot that fuses IR arrays and camera-based vision for intelligent junction handling.
 * 🔊 **Noise Pollution Logger** — A real-time noise measurement platform using ESP32 and high-sensitivity microphones.
-* 🚦 **Traffic Light Simulation (C & Python)** — A full-stack, GUI-driven, smart traffic light controller with emergency and pedestrian handling modes.
-
 ---
 
 ## 📊 GitHub Contributions
