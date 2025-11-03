@@ -52,10 +52,6 @@ Beyond engineering, I run **[Raceday.lk](https://instagram.com/racedaylk)**, a f
   <img src="https://github-readme-stats.vercel.app/api?username=dineth14&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
 </p>
 
-## 🎯 Mission
-
-> **"To become a multi-dimensional tech leader blending engineering, AI, and human communication—impacting lives through code, circuits, and conversations."**
-
 ---
 
 ## 🌐 Let’s Connect!
