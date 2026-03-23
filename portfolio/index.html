@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dineth14 · research node</title>
+<meta name="description" content="Dineth Perera — perception, signal processing, embedded systems.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #0d1117;
+    --fg: #c9d1d9;
+    --accent: #00FF9C;
+    --dim: #484f58;
+    --border: #21262d;
+    --card-bg: #161b22;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) var(--bg);
+  }
+
+  body {
+    font-family: 'JetBrains Mono', monospace;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: var(--bg);
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(13, 17, 23, 0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    font-size: 0.8rem;
+  }
+
+  nav .logo {
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+
+  nav .links { display: flex; gap: 2rem; }
+
+  nav .links a {
+    color: var(--dim);
+    text-decoration: none;
+    transition: color 0.2s;
+    letter-spacing: 0.04em;
+  }
+
+  nav .links a:hover { color: var(--accent); }
+
+  /* ── SECTIONS ── */
+  section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem 2rem 4rem;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .section-tag {
+    font-size: 0.7rem;
+    color: var(--dim);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+
+  /* ── HERO ── */
+  #hero {
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .terminal-boot {
+    text-align: left;
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto 3rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--card-bg);
+    min-height: 220px;
+  }
+
+  .boot-line {
+    opacity: 0;
+    color: var(--accent);
+    font-size: 0.85rem;
+    white-space: pre;
+    margin-bottom: 0.35rem;
+  }
+
+  .boot-line.visible {
+    opacity: 1;
+  }
+
+  .boot-line .cursor {
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    background: var(--accent);
+    vertical-align: text-bottom;
+    animation: blink 1s step-end infinite;
+  }
+
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+
+  .hero-content {
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+
+  .hero-content.visible { opacity: 1; }
+
+  .hero-name {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-name span { color: var(--accent); }
+
+  .hero-tagline {
+    font-size: 0.9rem;
+    color: var(--dim);
+    margin-bottom: 2.5rem;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .cta:hover {
+    background: var(--accent);
+    color: var(--bg);
+  }
+
+  /* ── RESEARCH ── */
+  .research-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .research-card {
+    border: 1px solid var(--border);
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    background: var(--card-bg);
+  }
+
+  .research-card:hover { border-color: var(--accent); }
+
+  .research-card .card-id {
+    font-size: 0.7rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1em;
+  }
+
+  .research-card .card-title {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+
+  .research-card .card-meta {
+    font-size: 0.75rem;
+    color: var(--dim);
+  }
+
+  .research-card .card-abstract {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, margin-top 0.4s ease;
+    font-size: 0.8rem;
+    color: var(--fg);
+    line-height: 1.7;
+    margin-top: 0;
+  }
+
+  .research-card.expanded .card-abstract {
+    max-height: 300px;
+    margin-top: 1rem;
+  }
+
+  .research-card .card-abstract .tag {
+    display: inline-block;
+    font-size: 0.65rem;
+    border: 1px solid var(--border);
+    padding: 0.15rem 0.5rem;
+    margin: 0.5rem 0.3rem 0 0;
+    color: var(--dim);
+  }
+
+  /* ── STACK ── */
+  #stack { align-items: center; }
+
+  .arch-diagram {
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .arch-diagram svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .arch-layer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .arch-label {
+    font-size: 0.75rem;
+    color: var(--accent);
+    width: 110px;
+    text-align: right;
+    letter-spacing: 0.08em;
+    flex-shrink: 0;
+  }
+
+  .arch-box {
+    flex: 1;
+    border: 1px solid var(--border);
+    padding: 0.8rem 1rem;
+    font-size: 0.8rem;
+    color: var(--fg);
+    background: var(--card-bg);
+    position: relative;
+  }
+
+  .arch-connector {
+    width: 110px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.45rem;
+    flex-shrink: 0;
+  }
+
+  .arch-connector svg {
+    width: 24px;
+    height: 32px;
+  }
+
+  /* ── CONTACT ── */
+  #contact {
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-line {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-line a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+
+  .contact-line a:hover { border-bottom-color: var(--accent); }
+
+  .contact-note {
+    margin-top: 2rem;
+    font-size: 0.75rem;
+    color: var(--dim);
+    font-style: italic;
+  }
+
+  /* ── SCROLL FADE ── */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 640px) {
+    nav { padding: 0.8rem 1rem; }
+    nav .links { gap: 1rem; font-size: 0.7rem; }
+    section { padding: 5rem 1.2rem 3rem; }
+    .hero-name { font-size: 1.6rem; }
+    .arch-label { width: 80px; font-size: 0.65rem; }
+    .arch-connector { width: 80px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">dineth14</div>
+  <div class="links">
+    <a href="#hero">HOME</a>
+    <a href="#research">RESEARCH</a>
+    <a href="#stack">STACK</a>
+    <a href="#contact">CONTACT</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="terminal-boot" id="bootTerminal">
+    <div class="boot-line" data-text="> BIOS check .......... OK"></div>
+    <div class="boot-line" data-text="> loading kernel modules"></div>
+    <div class="boot-line" data-text="> mounting /research /stack /signal"></div>
+    <div class="boot-line" data-text="> NODE dineth14 | STATUS [ ONLINE ]"></div>
+    <div class="boot-line" data-text="> SIGNAL locked → perception / systems / vision"></div>
+    <div class="boot-line" data-text="> UPLINK established | handshake complete"></div>
+    <div class="boot-line" data-text="> ready_"></div>
+  </div>
+  <div class="hero-content" id="heroContent">
+    <div class="hero-name">Dineth <span>Perera</span></div>
+    <p class="hero-tagline">perception · signal processing · embedded systems · vision research</p>
+    <a href="#research" class="cta">enter research node →</a>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research">
+  <div class="section-tag fade-in">> active_transmissions</div>
+
+  <div class="research-grid">
+    <div class="research-card fade-in" onclick="this.classList.toggle('expanded')">
+      <div class="card-id">THREAD_01</div>
+      <div class="card-title">State-Space Models for Efficient Visual Representation Learning</div>
+      <div class="card-meta">Vision Mamba / SSM · remote sensing · segmentation</div>
+      <div class="card-abstract">
+        Exploring VMamba, Spatial-Mamba, and hybrid CNN–SSM architectures for
+        remote sensing segmentation and change detection. The focus lies on
+        long-range spatial reasoning with computational efficiency — replacing
+        heavy attention mechanisms with state-space dynamics that scale linearly
+        with sequence length.
+        <div>
+          <span class="tag">VMamba</span>
+          <span class="tag">Spatial-Mamba</span>
+          <span class="tag">CNN–SSM</span>
+          <span class="tag">Remote Sensing</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="research-card fade-in" onclick="this.classList.toggle('expanded')">
+      <div class="card-id">THREAD_02</div>
+      <div class="card-title">Bi-Temporal Change Detection in Satellite Imagery via Wavelet-Domain Fusion</div>
+      <div class="card-meta">Remote Sensing · dual-stream architecture · uncertainty estimation</div>
+      <div class="card-abstract">
+        Researching dual-stream and bi-temporal architectures using wavelet-domain
+        fusion, edge-aware losses, and uncertainty estimation for robust urban
+        change detection. The pipeline handles multi-temporal satellite pairs,
+        suppressing registration noise while preserving fine-grained boundary detail.
+        <div>
+          <span class="tag">Wavelet Fusion</span>
+          <span class="tag">Edge-Aware Loss</span>
+          <span class="tag">Uncertainty</span>
+          <span class="tag">Change Detection</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="research-card fade-in" onclick="this.classList.toggle('expanded')">
+      <div class="card-id">THREAD_03</div>
+      <div class="card-title">Physically Constrained Spatiotemporal Learning for Group Activity Recognition</div>
+      <div class="card-meta">GAR · spatiotemporal graphs · transformer models</div>
+      <div class="card-abstract">
+        Investigating spatiotemporal learning strategies that integrate physical
+        constraints — motion consistency and feasibility — into deep activity
+        recognition models. The work bridges skeleton-graph reasoning, temporal
+        transformers, and physics-informed priors for group-level inference.
+        <div>
+          <span class="tag">GAR</span>
+          <span class="tag">Spatiotemporal</span>
+          <span class="tag">Physics-Informed</span>
+          <span class="tag">Transformers</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STACK -->
+<section id="stack">
+  <div class="section-tag fade-in">> system_architecture</div>
+
+  <div class="arch-diagram fade-in">
+    <!-- PERCEPTION layer -->
+    <div class="arch-layer">
+      <div class="arch-label">PERCEPTION</div>
+      <div class="arch-box">PyTorch · TensorFlow · OpenCV · Python</div>
+    </div>
+
+    <!-- connector -->
+    <div class="arch-layer">
+      <div class="arch-connector">
+        <svg viewBox="0 0 24 32" fill="none">
+          <line x1="12" y1="0" x2="12" y2="24" stroke="#00FF9C" stroke-width="1.5"/>
+          <polygon points="6,20 12,30 18,20" fill="#00FF9C"/>
+        </svg>
+      </div>
+      <div style="flex:1;"></div>
+    </div>
+
+    <!-- SIGNAL layer -->
+    <div class="arch-layer">
+      <div class="arch-label">SIGNAL</div>
+      <div class="arch-box">MATLAB · Signal Processing · Calibration · DSP</div>
+    </div>
+
+    <!-- connector -->
+    <div class="arch-layer">
+      <div class="arch-connector">
+        <svg viewBox="0 0 24 32" fill="none">
+          <line x1="12" y1="0" x2="12" y2="24" stroke="#00FF9C" stroke-width="1.5"/>
+          <polygon points="6,20 12,30 18,20" fill="#00FF9C"/>
+        </svg>
+      </div>
+      <div style="flex:1;"></div>
+    </div>
+
+    <!-- SYSTEMS layer -->
+    <div class="arch-layer">
+      <div class="arch-label">SYSTEMS</div>
+      <div class="arch-box">C · C++ · ESP32 · AVR · ARM · Raspberry Pi</div>
+    </div>
+
+    <!-- connector -->
+    <div class="arch-layer">
+      <div class="arch-connector">
+        <svg viewBox="0 0 24 32" fill="none">
+          <line x1="12" y1="0" x2="12" y2="24" stroke="#00FF9C" stroke-width="1.5"/>
+          <polygon points="6,20 12,30 18,20" fill="#00FF9C"/>
+        </svg>
+      </div>
+      <div style="flex:1;"></div>
+    </div>
+
+    <!-- ENV layer -->
+    <div class="arch-layer">
+      <div class="arch-label">ENV</div>
+      <div class="arch-box">Linux · Git · VS Code · LaTeX</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-tag fade-in">> open_channel</div>
+
+  <div class="fade-in">
+    <p class="contact-line">
+      email → <a href="mailto:dp18perera@gmail.com">dp18perera@gmail.com</a>
+    </p>
+    <p class="contact-line">
+      linkedin → <a href="https://www.linkedin.com/in/dineth-perera-ba9657277/" target="_blank" rel="noopener noreferrer">dineth-perera</a>
+    </p>
+    <p class="contact-note">// transmission protocol: coherent signal required.</p>
+  </div>
+</section>
+
+<script>
+(function () {
+  /* ── BOOT SEQUENCE ── */
+  const bootLines = document.querySelectorAll('.boot-line');
+  const heroContent = document.getElementById('heroContent');
+  let lineIndex = 0;
+
+  function typeBootLine() {
+    if (lineIndex >= bootLines.length) {
+      setTimeout(function () { heroContent.classList.add('visible'); }, 400);
+      return;
+    }
+    const el = bootLines[lineIndex];
+    const fullText = el.getAttribute('data-text');
+    let charIndex = 0;
+    el.classList.add('visible');
+
+    function typeChar() {
+      if (charIndex <= fullText.length) {
+        el.innerHTML = fullText.substring(0, charIndex) + '<span class="cursor"></span>';
+        charIndex++;
+        setTimeout(typeChar, 18 + Math.random() * 22);
+      } else {
+        el.textContent = fullText;
+        lineIndex++;
+        setTimeout(typeBootLine, 120 + Math.random() * 80);
+      }
+    }
+    typeChar();
+  }
+
+  typeBootLine();
+
+  /* ── SCROLL FADE ── */
+  var faders = document.querySelectorAll('.fade-in');
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  faders.forEach(function (el) { observer.observe(el); });
+})();
+</script>
+</body>
+</html>
