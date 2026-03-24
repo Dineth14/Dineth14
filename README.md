@@ -170,32 +170,7 @@ class DinethPerera:
 
 </div>
 
----
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Dineth14&theme=radical&no-frame=false&no-bg=false&margin-w=4&column=7" width="100%"/>
-
-</div>
-
----
-
-## 📡 Current Focus
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  RESEARCH STACK — 2025                                      │
-├─────────────────────────────────────────────────────────────┤
-│  Architecture   │  VMamba + CNN Hybrid                      │
-│  Domain         │  Remote Sensing Change Detection          │
-│  Dataset        │  LEVIR-CD, WHU-CD, S2Looking              │
-│  Loss Functions │  BCE + Dice + Edge-Aware Wavelet          │
-│  Hardware       │  GPU Training + ESP32 Edge Deployment     │
-│  Goal           │  Efficient long-range spatial reasoning   │
-└─────────────────────────────────────────────────────────────┘
-```
 
 ---
 
