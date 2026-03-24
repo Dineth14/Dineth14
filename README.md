@@ -57,6 +57,10 @@ I am particularly focused on **AI for perception**, **vision-based reasoning**, 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dineth14&layout=compact&bg_color=00000000&title_color=00FF9C&text_color=c9d1d9&hide_border=true" alt="Top programming languages used by dineth14 ranked by repository frequency including Python, C++, MATLAB, and others displayed in compact layout with cyan text" height="165"/>
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dineth14&bg_color=00000000&color=c9d1d9&line=00FF9C&point=00FF9C&area=true&area_color=00FF9C&hide_border=true" alt="GitHub contribution activity graph for dineth14 showing commit frequency over time with neon green lines and points on a transparent background" />
+</p>
+
 
 
 ---
