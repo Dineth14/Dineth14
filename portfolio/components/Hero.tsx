@@ -71,6 +71,18 @@ export function Hero() {
     >
       <div className='hero-mesh' />
       <div className='noise-dot' />
+      {!showScene ? (
+        <div className='absolute inset-0 z-0 opacity-60 lg:hidden'>
+          <svg viewBox='0 0 900 900' className='h-full w-full' fill='none' aria-hidden='true'>
+            <circle cx='690' cy='230' r='180' stroke='rgba(0,231,255,0.16)' />
+            <circle cx='690' cy='230' r='125' stroke='rgba(0,231,255,0.12)' />
+            <circle cx='690' cy='230' r='70' stroke='rgba(0,231,255,0.1)' />
+            <path d='M690 230L820 110' stroke='rgba(0,231,255,0.28)' strokeWidth='2' />
+            <path d='M0 640H230L290 510H380L430 720H560L640 420H900' stroke='rgba(0,231,255,0.28)' strokeWidth='3' strokeLinecap='round' />
+            <path d='M110 170H340V280H480V170H640' stroke='rgba(255,107,53,0.22)' strokeWidth='2' strokeLinecap='round' />
+          </svg>
+        </div>
+      ) : null}
       {showScene ? <SignalScene /> : null}
 
       <div className='absolute inset-x-0 top-[16%] z-0 hidden h-[380px] opacity-50 lg:block'>

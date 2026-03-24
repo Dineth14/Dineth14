@@ -20,6 +20,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
 
 body {
@@ -311,6 +312,15 @@ select {
   }
 }
 
+@keyframes radar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .radar-panel {
   position: relative;
   border-radius: 999px;
@@ -495,3 +505,4 @@ select {
   background-size: 10px 10px;
   mask-image: radial-gradient(circle at center, black 15%, transparent 78%);
 }
+
