@@ -1,4 +1,5 @@
 ﻿![Welcome Banner](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Dineth+Perera;Electronics+Engineer)
+
 ---
 ## 🔥 About Me
 I’m **Dineth Perera**, an electronics engineering undergraduate with a strong research orientation and a multidisciplinary skill set spanning **embedded systems**, **robotics**, **signal processing**, and **computer vision**. My work is driven by a deep interest in building *theory-backed, system-level solutions* that scale from hardware to algorithms.
@@ -34,12 +35,15 @@ I am particularly focused on **AI for perception**, **vision-based reasoning**, 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,python,matlab,linux,arduino,raspberrypi,tensorflow,pytorch,git,github,vscode" />
 </p>
+
 **Domains:**
+---
 - Embedded Systems (ESP32, AVR, ARM basics)
 - Robotics & Control
 - Computer Vision & Deep Learning
 - Signal Processing & Instrumentation
 ---
+
 ## 📊 GitHub Contributions
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=dineth14&bg_color=0d1117&color=00e7ff&line=00e7ff&point=ffffff&area=true&hide_border=true" alt="Contribution Graph"/>
@@ -47,6 +51,8 @@ I am particularly focused on **AI for perception**, **vision-based reasoning**, 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=dineth14&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
+
+
 ---
 ## 🌐 Connect With Me
 <p align="center">
@@ -55,7 +61,7 @@ I am particularly focused on **AI for perception**, **vision-based reasoning**, 
 </p>
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=DinethPerera&style=for-the-badge&color=brightgreen&label=✨%20Profile%20Views✨" />
-</p
+</p>
 ---
 ✨ *Focused on building principled intelligence systems*
 
