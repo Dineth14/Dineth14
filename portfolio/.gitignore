@@ -1,0 +1,6 @@
+﻿node_modules
+.next
+out
+coverage
+npm-debug.log*
+package-lock.json
