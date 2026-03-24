@@ -48,15 +48,7 @@ I am particularly focused on **AI for perception**, **vision-based reasoning**, 
 ---
 
 ## 📊 GitHub Contributions
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dineth14&bg_color=0d1117&color=00e7ff&line=00e7ff&point=ffffff&area=true&hide_border=true" alt="Contribution Graph"/>
-</p>
-<img src="https://github-readme-stats.vercel.app/api?username=dineth14&show_icons=true&bg_color=00000000&title_color=00FF9C&text_color=c9d1d9&icon_color=00FF9C&hide_border=true&ring_color=00FF9C" height="165"/>
-  &nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=dineth14&background=00000000&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C&sideLabels=c9d1d9&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=555555&hide_border=true" height="165"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dineth14&layout=compact&bg_color=00000000&title_color=00FF9C&text_color=c9d1d9&hide_border=true" height="165"/>
-```
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=dineth14&show_icons=true&bg_color=00000000&title_color=00FF9C&text_color=c9d1d9&icon_color=00FF9C&hide_border=true&ring_color=00FF9C" alt="GitHub statistics showing repository count, total stars, and contributions for user dineth14 displayed with cyan and green accent colors on a dark transparent background" height="165"/>
   &nbsp;
@@ -64,10 +56,7 @@ I am particularly focused on **AI for perception**, **vision-based reasoning**, 
   &nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dineth14&layout=compact&bg_color=00000000&title_color=00FF9C&text_color=c9d1d9&hide_border=true" alt="Top programming languages used by dineth14 ranked by repository frequency including Python, C++, MATLAB, and others displayed in compact layout with cyan text" height="165"/>
 </p>
-```
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=dineth14&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</p>
+
 
 
 ---
