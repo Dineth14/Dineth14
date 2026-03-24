@@ -2,8 +2,12 @@
 
 ---
 ## 🔥 About Me
+---
+
 I’m **Dineth Perera**, an electronics engineering undergraduate with a strong research orientation and a multidisciplinary skill set spanning **embedded systems**, **robotics**, **signal processing**, and **computer vision**. My work is driven by a deep interest in building *theory-backed, system-level solutions* that scale from hardware to algorithms.
 I am particularly focused on **AI for perception**, **vision-based reasoning**, and **physically grounded intelligence**, aiming to bridge classical engineering principles with modern machine learning.
+
+
 ---
 ## 🧠 Core Research Interests
 * 🛰️ **Remote Sensing & Earth Observation**  
@@ -63,5 +67,6 @@ I am particularly focused on **AI for perception**, **vision-based reasoning**, 
   <img src="https://komarev.com/ghpvc/?username=DinethPerera&style=for-the-badge&color=brightgreen&label=✨%20Profile%20Views✨" />
 </p>
 ---
+
 ✨ *Focused on building principled intelligence systems*
 
