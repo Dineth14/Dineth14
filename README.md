@@ -1,5 +1,7 @@
 ﻿![Welcome Banner](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Dineth+Perera;Electronics+Engineer)
 
+🌐 **[View my portfolio website →](https://dineth14.github.io)**
+
 ---
 ## 🔥 About Me
 
