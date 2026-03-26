@@ -184,9 +184,7 @@ Current open questions I am working through: how to encode multi-temporal struct
 ### Connect
 
 <p align="center">
-
-[![Email](https://img.shields.io/badge/Email-dp18perera%40gmail.com-1C2333?style=flat-square&logo=gmail&logoColor=7BA7BC&labelColor=1C2333)](mailto:dp18perera@gmail.com)&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-Dineth%20Nethsara-1C2333?style=flat-square&logo=linkedin&logoColor=7BA7BC&labelColor=1C2333)](https://linkedin.com/in/dineth-perera-ba9657277)&nbsp;&nbsp;[![Instagram](https://img.shields.io/badge/Instagram-raceday.lk-1C2333?style=flat-square&logo=instagram&logoColor=7BA7BC&labelColor=1C2333)](https://instagram.com/raceday.lk)&nbsp;&nbsp;[![Portfolio](https://img.shields.io/badge/Portfolio-dineth.dev-1C2333?style=flat-square&logo=safari&logoColor=7BA7BC&labelColor=1C2333)](https://dineth.dev)
-
+  <a href="mailto:dp18perera@gmail.com"><img src="https://img.shields.io/badge/Email-dp18perera%40gmail.com-1C2333?style=flat-square&logo=gmail&logoColor=7BA7BC&labelColor=1C2333" alt="Email" /></a>&nbsp;&nbsp;<a href="https://linkedin.com/in/dineth-perera-ba9657277"><img src="https://img.shields.io/badge/LinkedIn-Dineth%20Nethsara-1C2333?style=flat-square&logo=linkedin&logoColor=7BA7BC&labelColor=1C2333" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://instagram.com/raceday.lk"><img src="https://img.shields.io/badge/Instagram-raceday.lk-1C2333?style=flat-square&logo=instagram&logoColor=7BA7BC&labelColor=1C2333" alt="Instagram" /></a>&nbsp;&nbsp;<a href="https://dineth.dev"><img src="https://img.shields.io/badge/Portfolio-dineth.dev-1C2333?style=flat-square&logo=safari&logoColor=7BA7BC&labelColor=1C2333" alt="Portfolio" /></a>
 </p>
 
 <br>
