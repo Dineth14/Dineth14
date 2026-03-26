@@ -1,44 +1,53 @@
 ﻿import type { Metadata } from 'next';
-import { JetBrains_Mono, Syne } from 'next/font/google';
+import { Sora, Inter, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
-import { CustomCursor } from '@/components/ui/CustomCursor';
 
-const syne = Syne({
+const sora = Sora({
   subsets: ['latin'],
-  variable: '--font-syne',
+  variable: '--font-sora',
   display: 'swap',
+  weight: ['500', '600'],
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+  weight: ['400', '500'],
 });
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
   variable: '--font-jetbrains-mono',
   display: 'swap',
+  weight: ['400'],
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://dineth14.github.io'),
-  title: 'Dineth Perera | Electronics Engineer & AI Researcher',
+  metadataBase: new URL('https://dinethnethsara.vercel.app'),
+  title: 'Dineth Nethsara | Researcher · Engineer · Founder',
   description:
-    'Electronics engineering undergraduate focused on embedded AI, remote sensing, Vision Mamba architectures, and group activity recognition.',
+    'Electronics & Electrical Engineering undergraduate at University of Peradeniya. Researching Visual State Space Models for remote sensing. Building systems that learn to see.',
   keywords: [
     'electronics engineer',
     'AI researcher',
-    'embedded systems',
     'remote sensing',
     'Vision Mamba',
+    'state space models',
+    'University of Peradeniya',
     'Sri Lanka',
   ],
   openGraph: {
-    title: 'Dineth Perera - Signal to Intelligence',
-    description: 'Electronics Engineer · AI Researcher · Systems Builder',
-    url: 'https://dineth14.github.io',
-    images: ['/og-image.png'],
+    title: 'Dineth Nethsara — Researcher · Engineer · Founder',
+    description:
+      'I build systems that learn to see. Researcher. Engineer. Founder.',
+    url: 'https://dinethnethsara.vercel.app',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dineth Perera - Signal to Intelligence',
-    description: 'Electronics Engineer · AI Researcher · Systems Builder',
-    images: ['/og-image.png'],
+    title: 'Dineth Nethsara — Researcher · Engineer · Founder',
+    description:
+      'I build systems that learn to see. Researcher. Engineer. Founder.',
   },
 };
 
@@ -48,12 +57,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${syne.variable} ${jetbrainsMono.variable} bg-ink font-mono text-mist antialiased`}
+        className={`${sora.variable} ${inter.variable} ${jetbrainsMono.variable} bg-deep font-body text-body text-text-primary antialiased`}
       >
-        <CustomCursor />
-        <div className='app-shell'>{children}</div>
+        {children}
       </body>
     </html>
   );

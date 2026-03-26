@@ -1,91 +1,98 @@
-﻿'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { Eye, Satellite, Signal, Users } from 'lucide-react';
-import { fadeUp, staggerParent } from '@/lib/animations';
-import { researchDomains } from '@/lib/site-data';
-import { GlowCard } from './ui/GlowCard';
-import { RadarSweep } from './ui/RadarSweep';
-
-const iconMap = {
-  satellite: Satellite,
-  eye: Eye,
-  users: Users,
-  waveform: Signal,
-};
+import { motion } from "framer-motion";
+import { fadeUp, staggerContainer } from "@/lib/animations";
+import { publications, ongoingResearch } from "@/lib/data";
 
 export function Research() {
   return (
-    <section id='research' className='relative border-b border-white/5 py-24 sm:py-28'>
-      <div className='section-shell'>
-        <motion.div
-          initial='hidden'
-          whileInView='visible'
-          viewport={{ once: true, amount: 0.18 }}
-          variants={staggerParent}
-          className='space-y-12'
+    <section id="research" className="bg-deep py-24 md:py-32">
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        className="mx-auto max-w-[1100px] px-6"
+      >
+        <motion.span
+          variants={fadeUp}
+          className="font-mono text-small text-text-muted"
         >
-          <motion.div
-            variants={fadeUp}
-            className='flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between'
-          >
-            <div className='flex items-center gap-5'>
-              <RadarSweep className='w-20 shrink-0' />
-              <div className='space-y-4'>
-                <span className='section-kicker'>Research Domains</span>
-                <h2 className='font-display text-4xl leading-tight text-mist sm:text-5xl'>
-                  Signal intelligence across earth observation, vision, and embedded
-                  sensing.
-                </h2>
+          research
+        </motion.span>
+        <motion.h2
+          variants={fadeUp}
+          className="mt-2 font-display text-h2 font-semibold text-accent-light"
+        >
+          Published Work
+        </motion.h2>
+
+        {/* Publication cards */}
+        <div className="mt-10 space-y-6">
+          {publications.map((pub) => (
+            <motion.article
+              key={pub.title}
+              variants={fadeUp}
+              className="rounded-xl border-l-2 border-l-accent-warm-muted bg-surface p-8"
+            >
+              {/* Conference badge */}
+              <div className="mb-4 flex items-center gap-3">
+                <span className="inline-block rounded-full bg-accent-subtle px-3 py-1 font-mono text-[0.75rem] text-accent-light">
+                  {pub.conference}
+                </span>
+                <span className="font-mono text-[0.75rem] text-text-muted">
+                  · {pub.status}
+                </span>
               </div>
-            </div>
-            <p className='max-w-xl text-base leading-8 text-mist/66'>
-              Current work is organized around spatial reasoning, physically grounded
-              inference, and robust perception pipelines that can move from research
-              prototypes into constrained systems.
-            </p>
-          </motion.div>
 
-          <motion.div variants={staggerParent} className='grid gap-6 md:grid-cols-2'>
-            {researchDomains.map((domain) => {
-              const Icon = iconMap[domain.icon];
+              {/* Title */}
+              <h3 className="font-display text-h3 font-semibold text-accent-light">
+                {pub.title}
+              </h3>
 
-              return (
-                <motion.div key={domain.title} variants={fadeUp}>
-                  <GlowCard className='group h-full p-6 sm:p-7'>
-                    <div className='flex h-full flex-col'>
-                      <div className='mb-6 flex items-start justify-between gap-4'>
-                        <div>
-                          <span className='mb-4 inline-flex rounded-full border border-cyan/20 bg-cyan/8 px-3 py-1 text-[0.7rem] uppercase tracking-[0.22em] text-cyan/85'>
-                            {domain.tag}
-                          </span>
-                          <h3 className='max-w-xs font-display text-2xl text-mist'>
-                            {domain.title}
-                          </h3>
-                        </div>
-                        <span className='rounded-2xl border border-white/8 bg-white/5 p-3 text-cyan transition group-hover:border-cyan/30 group-hover:bg-cyan/8'>
-                          <Icon className='h-6 w-6' />
-                        </span>
-                      </div>
+              {/* Abstract */}
+              <p className="mt-3 max-w-prose text-[0.9rem] leading-[1.75] text-text-secondary">
+                {pub.abstract}
+              </p>
 
-                      <ul className='space-y-4 text-sm leading-7 text-mist/72'>
-                        {domain.bullets.map((bullet) => (
-                          <li key={bullet} className='flex gap-3'>
-                            <span className='mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember shadow-[0_0_14px_rgba(255,107,53,0.8)]' />
-                            <span>{bullet}</span>
-                          </li>
-                        ))}
-                      </ul>
+              {/* Links */}
+              <div className="mt-4 flex items-center gap-4">
+                {pub.paperUrl && (
+                  <a
+                    href={pub.paperUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center gap-1 text-small text-accent-warm transition-colors hover:text-accent-warm/80"
+                  >
+                    Paper
+                    <span className="text-xs">↗</span>
+                    <span className="block h-px w-0 bg-accent-warm transition-all duration-200 group-hover:w-full" />
+                  </a>
+                )}
+                {pub.repoUrl && (
+                  <a
+                    href={pub.repoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center gap-1 text-small text-accent-warm transition-colors hover:text-accent-warm/80"
+                  >
+                    Repository
+                    <span className="text-xs">↗</span>
+                  </a>
+                )}
+              </div>
+            </motion.article>
+          ))}
+        </div>
 
-                      <div className='mt-8 h-px bg-gradient-to-r from-cyan/0 via-cyan/70 to-cyan/0 transition duration-300 group-hover:via-ember/75' />
-                    </div>
-                  </GlowCard>
-                </motion.div>
-              );
-            })}
-          </motion.div>
-        </motion.div>
-      </div>
+        {/* Ongoing research line */}
+        <motion.p
+          variants={fadeUp}
+          className="mt-8 max-w-prose text-small italic text-text-secondary"
+        >
+          {ongoingResearch}
+        </motion.p>
+      </motion.div>
     </section>
   );
 }

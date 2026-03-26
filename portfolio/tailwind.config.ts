@@ -9,53 +9,37 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#060810",
-        surface: "#0d1a2d",
-        panel: "#10213a",
-        cyan: "#00e7ff",
-        ember: "#ff6b35",
-        mist: "#f0f4f8",
-        muted: "#64748b",
+        deep: "#080C12",
+        surface: "#0D1117",
+        raised: "#111827",
+        border: "#1F2937",
+        accent: {
+          primary: "#6B8CAE",
+          light: "#93B4D0",
+          subtle: "#2A3F54",
+          warm: "#B8956A",
+          "warm-muted": "#7A5F42",
+        },
+        text: {
+          primary: "#E2E8F0",
+          secondary: "#94A3B8",
+          muted: "#4B5563",
+        },
       },
       fontFamily: {
-        display: ["var(--font-syne)"],
-        mono: ["var(--font-jetbrains-mono)"],
+        display: ["var(--font-sora)", "system-ui", "sans-serif"],
+        body: ["var(--font-inter)", "system-ui", "sans-serif"],
+        mono: ["var(--font-jetbrains-mono)", "monospace"],
       },
-      boxShadow: {
-        signal: "0 0 0 1px rgba(0, 231, 255, 0.22), 0 0 24px rgba(0, 231, 255, 0.14)",
-        ember: "0 0 0 1px rgba(255, 107, 53, 0.24), 0 0 28px rgba(255, 107, 53, 0.14)",
+      fontSize: {
+        hero: ["clamp(2.5rem, 6vw, 4.5rem)", { lineHeight: "1.1", letterSpacing: "-0.02em" }],
+        h2: ["clamp(1.5rem, 3vw, 2.25rem)", { lineHeight: "1.2", letterSpacing: "-0.02em" }],
+        h3: ["1.25rem", { lineHeight: "1.4", letterSpacing: "-0.02em" }],
+        body: ["1rem", { lineHeight: "1.75" }],
+        small: ["0.875rem", { lineHeight: "1.6" }],
       },
-      animation: {
-        "pulse-soft": "pulseSoft 2.6s ease-in-out infinite",
-        "float-slow": "floatSlow 8s ease-in-out infinite",
-        "scan-line": "scanLine 12s linear infinite",
-        radar: "radar 7s linear infinite",
-        shimmer: "shimmer 2.2s ease-in-out infinite",
-      },
-      keyframes: {
-        pulseSoft: {
-          "0%, 100%": { opacity: "0.45", transform: "scale(1)" },
-          "50%": { opacity: "1", transform: "scale(1.04)" },
-        },
-        floatSlow: {
-          "0%, 100%": { transform: "translateY(0px)" },
-          "50%": { transform: "translateY(-12px)" },
-        },
-        scanLine: {
-          "0%": { transform: "translateX(-100%)" },
-          "100%": { transform: "translateX(150%)" },
-        },
-        radar: {
-          "0%": { transform: "rotate(0deg)" },
-          "100%": { transform: "rotate(360deg)" },
-        },
-        shimmer: {
-          "0%, 100%": { opacity: "0.3" },
-          "50%": { opacity: "0.95" },
-        },
-      },
-      backgroundImage: {
-        grid: "linear-gradient(rgba(0, 231, 255, 0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 231, 255, 0.08) 1px, transparent 1px)",
+      maxWidth: {
+        prose: "72ch",
       },
     },
   },
