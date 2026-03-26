@@ -26,14 +26,7 @@ I am particularly focused on **AI for perception**, **vision-based reasoning**, 
   * Noise-aware measurement systems
   * Embedded signal acquisition pipelines
 ---
-## 🧪 Active Research Work
-* 🧠 **Vision Mamba & State Space Models**  
-  Exploring VMamba, Spatial-Mamba, and hybrid CNN–SSM architectures for **remote sensing segmentation** and **change detection**, with emphasis on efficiency and long-range spatial reasoning.
-* 🛰️ **Remote Sensing Change Detection**  
-  Researching dual-stream and bi-temporal architectures using **wavelet-domain fusion**, **edge-aware losses**, and **uncertainty estimation** for robust urban change detection.
-* 🧍 **Group Activity Recognition (GAR)**  
-  Investigating spatiotemporal learning strategies that integrate **physical constraints** (motion consistency, feasibility) into deep activity recognition models.
----
+
 ## ⚡ Technical Skill Set
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,python,matlab,linux,arduino,raspberrypi,tensorflow,pytorch,git,github,vscode" />
@@ -72,7 +65,6 @@ I am particularly focused on **AI for perception**, **vision-based reasoning**, 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=DinethPerera&style=for-the-badge&color=brightgreen&label=✨%20Profile%20Views✨" />
 </p>
----
 
 ✨ *Focused on building principled intelligence systems*
 
