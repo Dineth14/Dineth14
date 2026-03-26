@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Dineth Perera - Signal to Intelligence',
     description: 'Electronics Engineer · AI Researcher · Systems Builder',
-    url: 'https://dineth14.github.io/portfolio',
+    url: 'https://dineth14.github.io',
     images: ['/og-image.png'],
   },
   twitter: {
