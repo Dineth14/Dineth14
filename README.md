@@ -17,10 +17,6 @@ I am particularly focused on **AI for perception**, **vision-based reasoning**, 
   * Vision Mamba / State Space Models for vision tasks
   * Spatiotemporal representation learning
   * Lightweight models for resource-constrained systems
-* 🧍 **Activity Recognition**  
-  * Group Activity Recognition (GAR)
-  * Action feasibility & physically plausible motion
-  * Spatiotemporal graph & transformer-based models
 * 📡 **Signal Processing & Instrumentation**  
   * Sensor modeling and calibration
   * Noise-aware measurement systems
