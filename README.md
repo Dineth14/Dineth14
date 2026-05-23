@@ -55,7 +55,7 @@ I am particularly focused on **AI for perception**, **vision-based reasoning**, 
 ---
 ## 🌐 Connect With Me
 <p align="center">
-  <a href="https://dineth14.github.io/dineth-portfolio/"><img src="https://img.shields.io/badge/Portfolio-00FF9C?style=for-the-badge&logo=googlechrome&logoColor=black"/></a>
+  <a href="https://dineth14.github.io/Research_portfolio/"><img src="https://img.shields.io/badge/Portfolio-00FF9C?style=for-the-badge&logo=googlechrome&logoColor=black"/></a>
   <a href="https://www.linkedin.com/in/dineth-perera-ba9657277/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:dp18perera@gmail.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
