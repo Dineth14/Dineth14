@@ -74,11 +74,3 @@ Development of a multi-hazard Earth-observation dataset for disaster change anal
 
 ---
 
-```text
-dineth@research:~$ cat interests.txt
-computer vision
-remote sensing
-earth observation
-state-space models
-signal processing
-```
