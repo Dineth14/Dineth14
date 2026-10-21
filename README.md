@@ -10,7 +10,7 @@ I am an undergraduate researcher in Electrical and Electronic Engineering at the
 
 I am interested in developing learning methods that improve how machine-learning systems represent and reason about multi-temporal Earth-observation imagery.
 
-> **Research opportunities:** I am seeking research internship and visiting research opportunities from **April to September 2027** in computer vision, remote sensing, Earth observation, and machine learning.
+> **Research opportunities:** I am seeking research internship and visiting research opportunities from **April to November 2027** in computer vision, remote sensing, Earth observation, and machine learning.
 
 [CV](https://dineth14.github.io/Research_portfolio/Documents/CV.pdf)
 · [Google Scholar](https://scholar.google.com/citations?hl=en&user=MxZgkDYAAAAJ)
