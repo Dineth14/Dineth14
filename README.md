@@ -64,7 +64,6 @@ Development of a multi-hazard Earth-observation dataset for disaster change anal
 - Preparing the final ORBIT-Mamba manuscript for TGRS.
 - Developing a multi-hazard remote-sensing dataset.
 - Exploring representation learning for bi-temporal Earth-observation imagery.
-- Preparing for 2027 research internship applications.
 
 ## Tools I Use
 
